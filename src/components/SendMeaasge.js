@@ -32,6 +32,7 @@ const SendMeaasge = ({ scroll }) => {
     <form onSubmit={sendMessage} className={style.form}>
       <input
         className={style.input}
+        value={input}
         onChange={(ev) => setInput(ev.target.value)}
         type="text"
         placeholder="Message"
