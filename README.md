@@ -1,4 +1,4 @@
-# Configure firebase.js
+# Configure firebase.js "./src/"
 
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
